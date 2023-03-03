@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  FoodTrackerProject
 //
-//  Created by ASUMH on 2/10/23.
-//
 
 import UIKit
 

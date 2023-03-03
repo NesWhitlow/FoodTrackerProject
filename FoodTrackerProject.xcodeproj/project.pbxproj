@@ -13,8 +13,9 @@
 		641F233A29972FF300C67C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641F233829972FF300C67C03 /* Main.storyboard */; };
 		641F233C29972FF900C67C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641F233B29972FF900C67C03 /* Assets.xcassets */; };
 		641F233F29972FF900C67C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641F233D29972FF900C67C03 /* LaunchScreen.storyboard */; };
-		641F234A29972FF900C67C03 /* FoodTrackerProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641F234929972FF900C67C03 /* FoodTrackerProjectTests.swift */; };
 		641F235529972FF900C67C03 /* FoodTrackerProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641F235429972FF900C67C03 /* FoodTrackerProjectUITests.swift */; };
+		6481FC9C29B235EA0055AF53 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6481FC9B29B235EA0055AF53 /* Meal.swift */; };
+		6481FCB029B2652A0055AF53 /* FoodTrackerProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6481FCAF29B2652A0055AF53 /* FoodTrackerProjectTests.swift */; };
 		64EA504229A6C7BE003CEDB9 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EA504129A6C7BE003CEDB9 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,11 +46,12 @@
 		641F233E29972FF900C67C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		641F234029972FF900C67C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		641F234529972FF900C67C03 /* FoodTrackerProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		641F234929972FF900C67C03 /* FoodTrackerProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerProjectTests.swift; sourceTree = "<group>"; };
 		641F234B29972FF900C67C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		641F235029972FF900C67C03 /* FoodTrackerProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641F235429972FF900C67C03 /* FoodTrackerProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerProjectUITests.swift; sourceTree = "<group>"; };
 		641F235629972FF900C67C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6481FC9B29B235EA0055AF53 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = "../../../Downloads/Swift-1.5/FoodRaterApp/FoodTrackerProject/Meal.swift"; sourceTree = "<group>"; };
+		6481FCAF29B2652A0055AF53 /* FoodTrackerProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodTrackerProjectTests.swift; path = "../../../Downloads/Swift-1.5/FoodRaterApp/FoodTrackerProjectTests/FoodTrackerProjectTests.swift"; sourceTree = "<group>"; };
 		64EA504129A6C7BE003CEDB9 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = "../../../Downloads/Swift-1.4/FoodRaterApp/FoodTrackerProject/RatingControl.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				641F233429972FF300C67C03 /* SceneDelegate.swift */,
 				641F233629972FF300C67C03 /* ViewController.swift */,
 				64EA504129A6C7BE003CEDB9 /* RatingControl.swift */,
+				6481FC9B29B235EA0055AF53 /* Meal.swift */,
 				641F233829972FF300C67C03 /* Main.storyboard */,
 				641F233B29972FF900C67C03 /* Assets.xcassets */,
 				641F233D29972FF900C67C03 /* LaunchScreen.storyboard */,
@@ -116,7 +119,7 @@
 		641F234829972FF900C67C03 /* FoodTrackerProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				641F234929972FF900C67C03 /* FoodTrackerProjectTests.swift */,
+				6481FCAF29B2652A0055AF53 /* FoodTrackerProjectTests.swift */,
 				641F234B29972FF900C67C03 /* Info.plist */,
 			);
 			path = FoodTrackerProjectTests;
@@ -201,6 +204,7 @@
 					};
 					641F234429972FF900C67C03 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 641F232E29972FF300C67C03;
 					};
 					641F234F29972FF900C67C03 = {
@@ -261,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6481FC9C29B235EA0055AF53 /* Meal.swift in Sources */,
 				64EA504229A6C7BE003CEDB9 /* RatingControl.swift in Sources */,
 				641F233729972FF300C67C03 /* ViewController.swift in Sources */,
 				641F233329972FF300C67C03 /* AppDelegate.swift in Sources */,
@@ -272,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641F234A29972FF900C67C03 /* FoodTrackerProjectTests.swift in Sources */,
+				6481FCB029B2652A0055AF53 /* FoodTrackerProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +481,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FoodTrackerProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
@@ -486,6 +492,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Anessa-Whitlow.FoodTrackerProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTrackerProjectTests/FoodTrackerProjectTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTrackerProject.app/FoodTrackerProject";
@@ -497,6 +505,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FoodTrackerProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
@@ -507,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Anessa-Whitlow.FoodTrackerProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTrackerProjectTests/FoodTrackerProjectTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTrackerProject.app/FoodTrackerProject";
