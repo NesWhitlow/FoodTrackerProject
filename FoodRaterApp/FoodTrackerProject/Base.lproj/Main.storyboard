@@ -95,14 +95,14 @@
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="9H1-A3-DAJ">
-                                        <rect key="frame" x="27" y="44" width="320" height="330.5"/>
+                                        <rect key="frame" x="27" y="44" width="320" height="320"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="Sns-RB-21z" appends="YES" id="z1O-QE-fgv"/>
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Yb-i9-I63" customClass="RatingControl" customModule="FoodTrackerProject" customModuleProvider="target">
-                                        <rect key="frame" x="61" y="384.5" width="252" height="44"/>
+                                        <rect key="frame" x="61" y="374" width="252" height="54.5"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
